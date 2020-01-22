@@ -1,0 +1,92 @@
+html,body{
+    background-color: #f7f7fa;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.table{
+    width: 100%;
+}
+.container{
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.first{
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+.image{
+    margin: 10px 0px 5px 0px;
+    text-align: center;
+}
+.tool{
+    padding: 20px 20px 30px 20px;
+    margin: 5px 0px 10px 0px;
+    background-color: white;
+}
+.android{
+    color: #222629;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 10px 0px;
+    text-align: center;
+}
+.content{
+    color: #000000;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0px;
+    font-family: 'Oxygen', sans-serif;
+    opacity: 87.0%;
+}
+.tool:hover{
+    bottom: 20px;
+    position: relative;
+    box-shadow: 5px 3px 10px 5px gainsboro;
+    border-top: 10px solid red;
+}
+.blue{
+    border-color: #1976d2;
+}
+.blue:hover{  
+    border-top: 10px solid blue;
+}
+.grey{
+    border-color: grey;
+}
+.grey:hover{  
+    border-top: 10px solid grey;
+}
+.green{
+    border-color: greenyellow;
+}
+.green:hover{  
+    border-top: 10px solid greenyellow;
+}
+.main-container{
+    width: 60%;
+    margin: 200px auto;
+    overflow: auto;
+}
+.one{
+    width: 33.33%;
+    float: left;
+}
