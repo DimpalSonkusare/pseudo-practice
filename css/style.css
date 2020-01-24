@@ -1,92 +1,210 @@
-html,body{
+html,
+body {
     background-color: #f7f7fa;
     margin: 0;
     height: 100%;
     width: 100%;
 }
-*{
+
+* {
     box-sizing: border-box;
 }
-a{
+
+a {
     color: black;
     text-decoration: none;
 }
-p{
+
+p {
     margin: 0;
     padding: 0;
 }
 
-.table{
+.table {
     width: 100%;
+    padding: 40px 0px;
 }
-.container{
-    height: 50%;
-    width: 80%;
+
+.container {
+    width: 90%;
     margin: auto;
     overflow: auto;
 }
-.first{
+
+.card {
     width: 25%;
     padding: 10px;
     float: left;
 }
-.image{
-    margin: 10px 0px 5px 0px;
+
+.image {
     text-align: center;
+    padding: 10px 0px;
 }
-.tool{
-    padding: 20px 20px 30px 20px;
+
+.tool {
+    padding: 25px 20px 35px 20px;
     margin: 5px 0px 10px 0px;
     background-color: white;
-}
-.android{
-    color: #222629;
+    text-align: center;
     font-family: 'Oxygen', sans-serif;
+}
+
+.tech-item {
+    color: #222629;
     font-size: 22px;
+    padding: 5px 0px;
     line-height: 40px;
     font-weight: 600;
-    margin: 10px 0px;
-    text-align: center;
 }
-.content{
+
+.content {
     color: #000000;
     font-size: 17px;
     line-height: 25px;
-    text-align: center;
     letter-spacing: 0px;
-    font-family: 'Oxygen', sans-serif;
     opacity: 87.0%;
 }
-.tool:hover{
+
+.tool:hover {
     bottom: 20px;
     position: relative;
-    box-shadow: 5px 3px 10px 5px gainsboro;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, .15);
     border-top: 10px solid red;
 }
-.blue{
-    border-color: #1976d2;
+
+.blue {
+    border-color: #53c1de;
 }
-.blue:hover{  
-    border-top: 10px solid blue;
+
+.blue:hover {
+    border-top: 10px solid #53c1de;
 }
-.grey{
-    border-color: grey;
+
+.grey {
+    border-color: #999;
 }
-.grey:hover{  
-    border-top: 10px solid grey;
+
+.grey:hover {
+    border-top: 10px solid #999;
 }
-.green{
-    border-color: greenyellow;
+
+.green {
+    border-color: #a4c639;
 }
-.green:hover{  
-    border-top: 10px solid greenyellow;
+
+.green:hover {
+    border-top: 10px solid #a4c639;
 }
-.main-container{
+
+.main-container {
     width: 60%;
     margin: 200px auto;
     overflow: auto;
 }
-.one{
+
+.one {
     width: 33.33%;
     float: left;
+    position: relative;
+}
+
+.IoT {
+    top: 0;
+    right: 0;
+    border: 0;
+    left: 0;
+    color: white;
+    position: absolute;
+}
+
+.tech-image {
+    background-image: url(/images/)
+}
+
+.social {
+    padding: 200px 0px;
+    width: 50%;
+    overflow: auto;
+    margin: auto;
+}
+
+.contain {
+    width: 25%;
+    float: left;
+    padding: 40px;
+}
+
+.icon {
+    float: left;
+    font-size: 50px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: gainsboro;
+    line-height: 100px;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    border-radius: 0px;
+    text-align-last: center;
+    transition: 0.3s ease-out;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.15);
+}
+
+.icon:hover .social-icon {
+    transform: rotateZ(360deg);
+    transition: transform 0.4s ease-out;
+
+}
+
+.fb .blue-color {
+    color: #3b5998;
+}
+
+.fb:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.fb:hover .blue-color {
+    color: #fff;
+}
+
+.insta .brown-color {
+    color: brown;
+}
+
+.insta:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: #fff;
+}
+
+.insta:hover .brown-color {
+    color: #fff;
+}
+.you-tube .red-color {
+    color: #c4302b;
+}
+
+.you-tube:hover {
+    background-color: #c4302b;
+    color: #fff;
+}
+
+.you-tube:hover .red-color {
+    color: #fff;
+}
+.twitter .skyblue-color {
+    color: #00acee;
+}
+
+.twitter:hover {
+    background-color: #00acee;
+    color: #00acee;
+}
+
+.twitter:hover .skyblue-color {
+    color: #fff;
 }
