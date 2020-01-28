@@ -97,30 +97,6 @@ p {
     border-top: 10px solid #a4c639;
 }
 
-.main-container {
-    width: 60%;
-    margin: 200px auto;
-    overflow: auto;
-}
-
-.one {
-    width: 33.33%;
-    float: left;
-    position: relative;
-}
-
-.IoT {
-    top: 0;
-    right: 0;
-    border: 0;
-    left: 0;
-    color: white;
-    position: absolute;
-}
-
-.tech-image {
-    background-image: url(/images/)
-}
 
 .social {
     padding: 200px 0px;
@@ -207,4 +183,30 @@ p {
 
 .twitter:hover .skyblue-color {
     color: #fff;
+}
+
+.main-container {
+    width: 60%;
+    margin: 200px auto;
+    overflow: auto;
+}
+
+.one {
+    width: 33.33%;
+    float: left;
+    position: relative;
+}
+
+.IoT {
+    top: 0;
+    right: 0;
+    border: 0;
+    left: 0;
+    color: white;
+    position: absolute;
+}
+
+.tech-image {
+    font-size: 22px;
+    color: black;
 }
