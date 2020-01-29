@@ -203,8 +203,11 @@ p {
 
 .tech-image {
     filter: blur(1.5px);
-    max-height: 250px;
+    max-height: 200px;
     overflow: hidden;
+    z-index: 2;
+    white-space: nowrap;
+    filter: blur(1.5px);
 }
 
 .tech-name {
