@@ -153,13 +153,14 @@ p {
 }
 
 .insta:hover {
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     color: #fff;
 }
 
 .insta:hover .brown-color {
     color: #fff;
 }
+
 .you-tube .red-color {
     color: #c4302b;
 }
@@ -172,6 +173,7 @@ p {
 .you-tube:hover .red-color {
     color: #fff;
 }
+
 .twitter .skyblue-color {
     color: #00acee;
 }
@@ -199,8 +201,10 @@ p {
 .tech-image {
     position: relative;
     text-align: center;
+    opacity: 0.5;
 }
-.tech-name{
+
+.tech-name {
     color: white;
     font-size: 22px;
     top: 50%;
@@ -209,4 +213,3 @@ p {
     filter: blur(0px);
     position: absolute;
 }
-
