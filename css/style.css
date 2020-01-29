@@ -189,19 +189,22 @@ p {
 
 .main-container {
     width: 49.5%;
-    margin: 180px auto;
+    margin: auto;
     overflow: auto;
+    text-align: center
 }
 
 .one {
     width: 33.33%;
     float: left;
+    overflow: hidden;
+    position: relative;
 }
 
 .tech-image {
-    position: relative;
-    text-align: center;
-    opacity: 0.5;
+    filter: blur(1.5px);
+    max-height: 250px;
+    overflow: hidden;
 }
 
 .tech-name {
@@ -210,6 +213,11 @@ p {
     top: 50%;
     left: 0;
     right: 0;
-    filter: blur(0px);
     position: absolute;
+}
+.tech-image:hover{
+    transform: scale(1.15,1.15);
+    transition: transform .5s ease-in-out;
+    overflow: hidden;
+    filter: blur(0px);
 }
